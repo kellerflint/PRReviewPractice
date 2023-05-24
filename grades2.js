@@ -1,0 +1,1 @@
+const s = o => o.filter(x => x.age >= 18 && x.grades.reduce((a,b) => a + b, 0) / x.grades.length >= 85 && x.attendance / (x.attendance + x.absences) >= 0.9);
